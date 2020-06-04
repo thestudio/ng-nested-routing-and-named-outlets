@@ -1,0 +1,11 @@
+<h3>comics menu</h3>
+<ul>
+  <li><a [routerLink]="['']">comics home</a></li>
+  <li><a [routerLink]="['', {outlets: { primary: ['comics', 'marvel'], another: ['reference-links'] } }]">marvel</a></li>
+  <li><a [routerLink]="['', {outlets: { primary: ['comics', 'marvel'], another: null } }]">marvel</a></li>
+</ul>
+
+<router-outlet></router-outlet>
+
+
+

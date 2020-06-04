@@ -1,0 +1,6 @@
+<h3>avengers menu</h3>
+<ul>
+  <li><a [routerLink]="['', {outlets: { primary: ['comics', 'marvel', 'avengers'], rightHandPanel: ['reference-links'] } }]">avengers home</a></li>
+  <li><a [routerLink]="['', {outlets: { primary: ['comics', 'marvel', 'avengers', 'iron-man'], rightHandPanel: ['reference-links'] } }]">iron man</a></li>
+</ul>
+<router-outlet></router-outlet>

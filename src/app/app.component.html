@@ -1,0 +1,13 @@
+app layout
+<div>
+  <div style="width: 66%; border: solid 5px green; display: inline-block; vertical-align: top">
+    <router-outlet></router-outlet>
+  </div>
+  <div style="width: 33%; border: solid 5px red; display: inline-block; vertical-align: top">
+    <router-outlet name="rightHandPanel"></router-outlet>
+  </div>
+  <div style="border: solid 5px blue;">
+    <router-outlet name="another"></router-outlet>
+  </div>
+</div>
+
